@@ -1,0 +1,30 @@
+import { Hour } from "./hour";
+
+export type Day = {
+	datetime: string;
+	tempmax: number;
+	tempmin: number;
+	temp: number;
+	dew: number;
+	feelslikemax: number;
+	feelslikemin: number;
+	feelslike: number;
+	humidity: number;
+	precipprob: number;
+	snow: number;
+	snowdepth: number;
+	windgust: number;
+	windspeed: number;
+	winddir: number;
+	pressure: number;
+	cloudcover: number;
+	visibility: number;
+	solarenergy: number;
+	uvindex: number;
+	sunrise: string;
+	sunset: string;
+	conditions: string;
+	description: string;
+	icon: string;
+	hours: Hour[];
+};

@@ -1,0 +1,22 @@
+export type CurrentConditions = {
+	datetime: string;
+	temp: number;
+	feelslike: number;
+	humidity: number;
+	dew: number;
+	precipprob: number;
+	snow: number;
+	snowdepth: number;
+	windgust: number | null;
+	windspeed: number;
+	winddir: number;
+	pressure: number;
+	visibility: number;
+	cloudcover: number;
+	solarenergy: number;
+	uvindex: number;
+	conditions: string;
+	icon: string;
+	sunrise: string;
+	sunset: string;
+};
